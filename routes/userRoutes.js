@@ -102,7 +102,7 @@ router.post('/signup', async (req,res) => {
     }catch(err){
         res.status(500).json({
             message : err,
-            text: "some error occured"
+            text: "cant process signup request"
         })
     }
 });
